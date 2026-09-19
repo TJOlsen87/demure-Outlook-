@@ -86,3 +86,8 @@ mail details before sharing diagnostics.
 See [CHANGELOG.md](CHANGELOG.md) for release notes.
 
 A TJOlsen + AI enabled production.
+
+## License
+
+Copyright (C) 2026 TJOlsen. Licensed under the GNU General Public License,
+version 2 or (at your option) any later version. See [LICENSE](LICENSE).

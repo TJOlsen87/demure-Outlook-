@@ -1,3 +1,5 @@
+# Copyright (C) 2026 TJOlsen
+# SPDX-License-Identifier: GPL-2.0-or-later
 # Demure Outlook for NVDA
 # Announces metadata for newly delivered mail through Outlook's own event API.
 

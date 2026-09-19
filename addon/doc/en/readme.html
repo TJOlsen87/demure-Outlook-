@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Demure Outlook</title></head>
+<body>
+<h1>Demure Outlook</h1>
+<p>Concise new-mail announcements for NVDA and classic Microsoft Outlook on Windows: account, sender, and subject, without the message-body preview.</p>
+<h2>Review notifications</h2>
+<p>Press <strong>Ctrl+Alt+Shift+O</strong> from any application to review the last five notifications, newest first. Use Up and Down to review each entry. Press Escape or activate Close to return.</p>
+<p>The list is a snapshot. Close and reopen it to include new mail. History stays in memory, resets when NVDA restarts, and does not backfill older mail. Reviewing a notification does not open or mark the email as read.</p>
+<p>Change the shortcut under NVDA Preferences, Input gestures, Demure Outlook.</p>
+<h2>Requirements and connection</h2>
+<p>Requires NVDA 2026.1 or later and classic Outlook on Windows. Tested with NVDA 2026.2. New Outlook and Outlook on the web are not supported.</p>
+<p>Demure attaches automatically to running Outlook without changing focus. It retries every 15 seconds while Outlook's automation interface is unavailable. If delivery stops after closing and reopening Outlook, restart NVDA.</p>
+<h2>Duplicate speech and sound</h2>
+<p>If you hear both Demure and Outlook's verbose preview, disable Outlook's notifications in Windows Settings, System, Notifications, Outlook. Demure's announcements and five-item history work independently of Windows notifications.</p>
+<p>Disabling only notification banners while leaving Notification Center enabled is an alternative Windows configuration, but has not been verified with this add-on. Saved Outlook entries may still contain verbose previews.</p>
+<p>In the background, Demure plays the Windows email sound for the first new-mail event after 20 minutes without new mail. It does not play the sound while Outlook has focus. Disable Outlook's separate new-mail sound if necessary.</p>
+<h2>Privacy</h2>
+<p>Demure reads account, sender, and subject metadata from new-mail events. It does not scan the Inbox, read message bodies or attachments, transmit mail data, or save notification history to disk. Spoken metadata and the history command are suppressed while Windows is locked or NVDA is in secure mode.</p>
+<h2>Support and downloads</h2>
+<p><a href="https://github.com/TJOlsen87/demure-Outlook-">Full documentation</a> · <a href="https://github.com/TJOlsen87/demure-Outlook-/releases/latest">Latest release</a> · <a href="https://github.com/TJOlsen87/demure-Outlook-/issues">Report an issue</a></p>
+<p>A TJOlsen + AI enabled production.</p>
+</body></html>
